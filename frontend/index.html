@@ -526,13 +526,25 @@
                 </div>
                 <div class="skill-card">
                     <h3>Tools & Others</h3>
-                    <p>Git, GitHub, Figma, UI/UX Design</p>
+                    <p>Git, GitHub, Figma, UI/UX Design , Canva</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools & Others</h3>
+                    <p>Git, GitHub, Figma, UI/UX Design , Canva</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools & Others</h3>
+                    <p>Git, GitHub, Figma, UI/UX Design , Canva</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="projects-grid">
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            
+        <div class="projects-grid">
         <div class="project-card">
             <div class="project-image">
                 <img src="pics/portfolio.jpg" alt="background" style="width: 100%; height: 100%; object-fit: cover;">
@@ -577,27 +589,55 @@
                 </div>
             </div>
         </div>
+        <div class="project-card">
+            <div class="project-image">
+                <img src="pics/postman.jpg" alt="decision-compass" style="width: 100%; height: 100%; object-fit: cover;">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="project-content">
+                <h3>Postman Clone</h3>
+                <p>The frontend of our Postman clone, developed with a focus on intuitive usability in Indore, provides a streamlined interface for interacting with APIs. Users can effortlessly construct and send various types of HTTP requests (GET, POST, PUT, DELETE, etc.), define headers, set parameters, and manage request bodies for different content types.</p>
+                <div class="project-links">
+                    <a href="https://my-postman-frontend-app.vercel.app/" class="project-link">View Demo</a>
+                    <a href="https://github.com/hyper-27/my-postman-frontend-app" class="project-link">GitHub Repo</a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">
+                <img src="pics/url.jpg" alt="url" style="width: 100%; height: 100%; object-fit: cover;">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="project-content">
+                <h3>Url shortner</h3>
+                <p>A URL shortener is an online tool or service that takes a long web address (URL) and converts it into a much shorter, more manageable one. Instead of sharing a lengthy, complicated link, you get a compact version that still directs users to the original destination.</p>
+                <div class="project-links">
+                    <a href="/" class="project-link">View Demo</a>
+                    <a href="/" class="project-link">GitHub Repo</a>
+                </div>
+            </div>
+        </div>
+        </div>
 
     </section>
     <section id="contact">
         <div class="container">
             <div class="contact-content">
                 <h2 class="section-title">Get In Touch</h2>
-                <p>I'm always interested in new opportunities and collaborations. Let's create something amazing
+                <p style="color: #000">I'm always interested in new opportunities and collaborations. Let's create something amazing
                     together!</p>
-                <form action="https://formspree.io/f/xjkrykan" method="POST" class="contact-form"
-                    onsubmit="handleSubmit(event)">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea rows="5" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
+                   <form action="https://formspree.io/f/manjojnn" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="email" class="sr-only">Your email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email">
+            </div>
+            <div class="form-group">
+                <label for="message" class="sr-only">Your message:</label>
+                <textarea id="message" name="message" rows="6" placeholder="Your message"></textarea>
+            </div>
+            <!-- your other form fields go here if any -->
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
             </div>
         </div>
     </section>
