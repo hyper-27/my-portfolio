@@ -49,8 +49,9 @@ my-portfolio/
 **hyper-27**
 
 - [GitHub](https://github.com/hyper-27)
-- [LinkedIn](#)
-- [Twitter](#)
+- [LinkedIn](https://www.linkedin.com/in/anuj-dangi-webdev/)
+- [HackerRank](https://www.hackerrank.com/profile/anujdangi227)
+- [leetcode](https://leetcode.com/u/hyper-27/)
 
 ## 📬 Contact
 
